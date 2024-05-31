@@ -6,15 +6,23 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
-header{font-size: 50px;font-family: 'Times New Roman', Times, serif;text-align: center}
+header{font-size: 50px;font-family: 'Times New Roman', Times, serif;
+       text-align: center}
 /* Set the font family for any h1, h2, or h3 heading */
-h1 {font-size: 20px;text-align: center}
-h2 {font-size: 30px; font-family: 'Times New Roman', Times, serif;text-align: center} 
+header{ text-align:center}
+h1 {font-size: 20px;
+    text-align: center}
+
+h2 {font-size: 30px; font-family: 'Times New Roman', Times, serif;
+    text-align: center} 
 h3 {
   font-family: "Playfair Display", Times, serif;
+  text-align: center;
 }
+ul {font-size: 20px; font-family: 'Times New Roman', Times, serif;
+  text-align: center;
 
-article {
+    article {
   padding: 50px 0;
 }
 
@@ -25,20 +33,28 @@ article div {
 
 p {
   line-height: 1.5;
+  text-align: center;
 }
-
+ol {line-height: 2.5;
+  text-align: center;
+    width: 600px;
+}
 /* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
   width: 600px;
 }
-
+    button:hover{color: blue;
+                 background-color: indianred;}
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
 }
-
+a{
+  line-height: 1.5;
+  text-align: center;
+}
 hr {
   border: 1px solid black;
 }
@@ -48,3 +64,4 @@ hr {
 .image-circle { border-radius: 100%;border: 2px;color: #003049;
 } 
 body{background-color: #e5eacc;}
+
